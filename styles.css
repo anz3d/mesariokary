@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://i.postimg.cc/8zk3wQs9/Whats-App-Image-2026-04-07-at-10-01-48-PM-(4).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.fondo-transparente {
+    position: absolute;
+    top: 20px; /* Margen superior */
+    left: 20px; /* Margen izquierdo */
+    right: 20px; /* Margen derecho */
+    bottom: 20px; /* Margen inferior */
+    background-color: rgba(0, 0, 0, 0.5); /* Transparencia */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 15px; /* Bordes redondeados opcionales */
+}
+
+.mensaje {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: -1px -1px 0 black,  
+                 1px -1px 0 black,  
+                 -1px 1px 0 black,  
+                 1px 1px 0 black;
+
+}
+
+.titulo {
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 black,  
+                 1px -1px 0 black,  
+                 -1px 1px 0 black,  
+                 1px 1px 0 black;
+                 position: absolute;
+    top: 10px; /* Ajusta según sea necesario */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px; /* Ajusta el tamaño */
+    font-weight: bold;
+
+}
+
+.mensaje p {
+    color: orange;
+    font-size: 20px;
+    text-shadow: -1px -1px 0 black,  
+                 1px -1px 0 black,  
+                 -1px 1px 0 black,  
+                 1px 1px 0 black;
+
+}
